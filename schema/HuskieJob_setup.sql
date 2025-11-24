@@ -90,12 +90,3 @@ CREATE TABLE User_Skill (
   FOREIGN KEY (user_id) REFERENCES Users(user_id),
   FOREIGN KEY (skill_id) REFERENCES Skills(skill_id)
 );
-
-
-SELECT * FROM Users;
-SELECT * FROM Company;
-SELECT * FROM Positions;
-SELECT * FROM Application;
-SELECT * FROM Position_Skill;
-SELECT * FROM User_Skill;
-
