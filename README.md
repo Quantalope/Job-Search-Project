@@ -16,6 +16,17 @@
 5. Run the setup notebook titled 'build_database.ipynb'
 6. Verify setup was successful.
 
+## Generating Data
+
+1. Open the generate_data notebook.
+2. Choose a seed for the faker (default 32).
+3. Choose how many rows of data you want to create.
+4. Run all.
+
+## Example Queries
+
+Make sure to run all. If testing separately, rerun the mysql server connection cell to set the cursor again and then test.
+
 ## Database Schema
 
 The database (HuskiesJob) includes these tables:
