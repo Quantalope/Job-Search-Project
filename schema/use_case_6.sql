@@ -1,6 +1,7 @@
 -- Company Use Case 3 (Hard)
 
--- ABC Company wants to create an application position for Biology majors. This notifies Sean, who is a Biology major looking for a co-op.
+-- ABC Company wants to create an application position for Biology majors. This notifies Sean, 
+-- who is a Biology major looking for a co-op.
 
 DELIMITER //
 
