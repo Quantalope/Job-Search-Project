@@ -3,7 +3,7 @@
 -- Jack is seeking a co-op in marketing or supply chain
 -- and is open to roles anywhere in Massachusetts.
 
-SELECT p.position_id, p.title, p.location, p.required_experience, p.work_mode, c.company_name
+SELECT p.position_id, p.title, p.location, p.required_experience, p.work_mode, c.company_name, p.job_category
 FROM Positions p
 JOIN Company c
 	USING (company_id) 
